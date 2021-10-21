@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple piano</title>
+    <style type="text/css">
+      .key {
+        user-select: none;
+        display: inline-block;
+        border: 1px solid #000;
+        background-color: white;
+        padding: 150px 20px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="key js-key" data-note="A3">A</button>
+    <button class="key js-key" data-note="B3">B</button>
+    <button class="key js-key" data-note="C4">C</button>
+    <button class="key js-key" data-note="D4">D</button>
+    <button class="key js-key" data-note="E4">E</button>
+    <button class="key js-key" data-note="F4">F</button>
+    <button class="key js-key" data-note="G4">G</button>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
